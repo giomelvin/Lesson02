@@ -1,0 +1,32 @@
+{
+  "name": "MelvinCh03",
+  "version": "1.0.0",
+  "description": "Chap 3 project",
+  "main": "index.js",
+  "author": "Melvin",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "development": "nodemon"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.12"
+  }
+}
